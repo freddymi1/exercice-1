@@ -2,7 +2,8 @@ html{
 	font-family: "arial", sans-serif;
 	font-size: 1.5rem;
 	width: auto;
-
+	margin: 0 auto;
+	overflow-x: hidden;
 }
 ul li{
 	display: inline-block;
@@ -22,7 +23,8 @@ ul li a{
 	justify-content: center;
 	width: 60%;
 	margin: auto;
-	padding: 140px 0px;
+	transform: translateY(60%);
+	
 }
 .logo img{
 	width: 230px;
@@ -47,4 +49,16 @@ ul li a{
 }
 .btn-flat:hover{
 	border:1px solid rgba(113, 110, 110, 0.2);
+}
+.footer{
+	margin-top: 28%;
+	margin-bottom: 0;
+	background: #fff;
+	height: 60px;
+}
+.footer-left{
+	float: left;
+}
+.footer-right{
+	float: right;
 }

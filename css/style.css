@@ -50,21 +50,33 @@ ul li a{
     margin-top: -57px;
     color:#ddddd6;
 }
-
-.btn-flat{
-	padding: 10px 15px;
-	background: rgba(180, 174, 174, 0.2);
-	border-radius: 5px;
+.btn-connex{
+	padding: 8px 15px;
+	background: rgb(56, 146, 234);
+	border-radius: 0px;
 	transition: color .4s;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 500;
+	color:#fff;
+}
+.btn-flat{
+	padding: 12px 15px;
+	background: rgba(233, 227, 227, 0.2);
+	border-radius: 2px;
+	transition: color .4s;
+	text-decoration: none;
+	font-size: 14px;
+	color:#9f9f95;
 }
 .btn-flat:hover{
-	border:1px solid rgba(113, 110, 110, 0.2);
+	background:  rgba(113, 110, 110, 0.2);
 }
 p{
 	font-size: 12px;
 }
 .footer-main{
-	margin-top: 350px;
+	margin-top: 364px;
 	background: #f6f6f0;
 	height: 60px;
 	line-height: 60px;

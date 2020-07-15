@@ -47,12 +47,18 @@ ul li a{
 }
 .logo input{
 	width: 60%;
-	height: 5s0px;
+	height: 15px;
 	border-radius: 20px;
-	border:1px solid #ddddd6;
 	padding: 15px;
 	background: transparent;
 	margin: 20px 0;
+	border:1px solid #ddddd6;
+	font-size: 16px;
+	font-weight: 600;
+	color:#525251;
+}
+.logo input:focus{
+	outline: none;
 }
 .fa-search{
     float: left;
@@ -69,6 +75,10 @@ ul li a{
 	font-size: 12px;
 	font-weight: 500;
 	color:#fff;
+}
+.overlay{
+	box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
 }
 .btn-flat{
 	padding: 12px 15px;
